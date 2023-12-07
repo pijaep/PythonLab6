@@ -9,6 +9,7 @@ def min_element_row(row):
         if min_element > element:
             min_element = element
 
+
     return min_element
 
 
@@ -40,6 +41,7 @@ while True:
             break
         else:
             print("Ошибка: Введено отрицательное число. Попробуйте снова.")
+            number_elements = int(input("Введите количество строк: "))
         break
     except ValueError:
         print("Вы ввели некорректное значение. Пожалуйста, введите целое число.")
@@ -51,6 +53,7 @@ while True:
             break
         else:
             print("Ошибка: Введено отрицательное число. Попробуйте снова.")
+            number_of_rows = int(input("Введите количество элементов в строке: "))
         break
     except ValueError:
         print("Вы ввели некорректное значение. Пожалуйста, введите целое число.")
